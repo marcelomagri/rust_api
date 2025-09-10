@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "cargo clean",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["clean"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Rust API",
+      "type": "shell",
+      "command": "cargo",
+      "args": ["run"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
