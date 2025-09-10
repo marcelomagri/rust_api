@@ -1,5 +1,5 @@
 [package]
-name = "rust_api"
+name = "api_core"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,5 +7,3 @@ edition = "2021"
 actix-web = "4"
 serde = { version = "1", features = ["derive"] }
 utoipa = { version = "5.4.0", features = ["macros"] }
-utoipa-swagger-ui = { version = "7.1.1-rc.0", features = ["actix-web", "vendored"] }
-api_core = { path = "./api_core" }  # ← isso é essencial!
